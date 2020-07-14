@@ -8,9 +8,9 @@
 
 import Foundation
 
-class ContentViewModel{
+class ContentViewModel: ObservableObject{
     var noOfObjects: Int
-    var dummyTestObjects: Array<DummyTestObject>
+    @Published var dummyTestObjects: Array<DummyTestObject>
     init(numberOfObjects: Int){
         noOfObjects = numberOfObjects
         dummyTestObjects = Array<DummyTestObject>()

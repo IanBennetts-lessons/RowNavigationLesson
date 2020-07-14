@@ -26,7 +26,7 @@ struct RowView: View {
                 Text("Name = \(self.dummyData.name)")
                     .onTapGesture {
                         print ("Name \(self.dummyData.id) has been tapped" )
-                        self.viewModel.changeName(id: self.dummyData.id, newName: "Changed Name ")
+                        self.viewModel.changeName(id: 1, newName: "Changed Name ")
                 }
                 Text("Address = \(self.dummyData.address)")
                     .onTapGesture {

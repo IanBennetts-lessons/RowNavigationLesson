@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var contentViewModel: ContentViewModel
+    @ObservedObject var contentViewModel: ContentViewModel
     var body: some View {
         VStack{
             List(contentViewModel.dummyTestObjects) { object in
