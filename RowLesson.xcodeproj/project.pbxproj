@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		BC114C9A24BD2A3B008B9278 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
-		BC96994E24BD17E800B44A53 /* RowLession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowLession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC96994E24BD17E800B44A53 /* RowLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC96995124BD17E800B44A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC96995324BD17E800B44A53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC96995524BD17E800B44A53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		BC96994524BD17E800B44A53 = {
 			isa = PBXGroup;
 			children = (
-				BC96995024BD17E800B44A53 /* RowLession */,
+				BC96995024BD17E800B44A53 /* RowLesson */,
 				BC96994F24BD17E800B44A53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		BC96994F24BD17E800B44A53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC96994E24BD17E800B44A53 /* RowLession.app */,
+				BC96994E24BD17E800B44A53 /* RowLesson.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC96995024BD17E800B44A53 /* RowLession */ = {
+		BC96995024BD17E800B44A53 /* RowLesson */ = {
 			isa = PBXGroup;
 			children = (
 				BC96996524BD18E600B44A53 /* ContentViewModel.swift */,
@@ -73,7 +73,7 @@
 				BC96995924BD17EA00B44A53 /* Preview Content */,
 				BC114C9A24BD2A3B008B9278 /* RowView.swift */,
 			);
-			path = RowLession;
+			path = RowLesson;
 			sourceTree = "<group>";
 		};
 		BC96995924BD17EA00B44A53 /* Preview Content */ = {
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC96994D24BD17E800B44A53 /* RowLession */ = {
+		BC96994D24BD17E800B44A53 /* RowLesson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC96996224BD17EA00B44A53 /* Build configuration list for PBXNativeTarget "RowLession" */;
+			buildConfigurationList = BC96996224BD17EA00B44A53 /* Build configuration list for PBXNativeTarget "RowLesson" */;
 			buildPhases = (
 				BC96994A24BD17E800B44A53 /* Sources */,
 				BC96994B24BD17E800B44A53 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = RowLession;
+			name = RowLesson;
 			productName = RowLession;
-			productReference = BC96994E24BD17E800B44A53 /* RowLession.app */;
+			productReference = BC96994E24BD17E800B44A53 /* RowLesson.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC96994924BD17E800B44A53 /* Build configuration list for PBXProject "RowLession" */;
+			buildConfigurationList = BC96994924BD17E800B44A53 /* Build configuration list for PBXProject "RowLesson" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC96994D24BD17E800B44A53 /* RowLession */,
+				BC96994D24BD17E800B44A53 /* RowLesson */,
 			);
 		};
 /* End PBXProject section */
@@ -297,9 +297,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RowLession/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RowLesson/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RowLession/Info.plist;
+				INFOPLIST_FILE = RowLesson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +316,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RowLession/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RowLesson/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = RowLession/Info.plist;
+				INFOPLIST_FILE = RowLesson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC96994924BD17E800B44A53 /* Build configuration list for PBXProject "RowLession" */ = {
+		BC96994924BD17E800B44A53 /* Build configuration list for PBXProject "RowLesson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC96996024BD17EA00B44A53 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC96996224BD17EA00B44A53 /* Build configuration list for PBXNativeTarget "RowLession" */ = {
+		BC96996224BD17EA00B44A53 /* Build configuration list for PBXNativeTarget "RowLesson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC96996324BD17EA00B44A53 /* Debug */,

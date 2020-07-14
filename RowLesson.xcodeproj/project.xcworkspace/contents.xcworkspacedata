@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RowLession.xcodeproj">
+      location = "self:/Users/ianbennetts/SwiftLessons/RowLession/RowLesson.xcodeproj">
    </FileRef>
 </Workspace>
