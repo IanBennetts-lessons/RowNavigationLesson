@@ -11,10 +11,10 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var contentViewModel: ContentViewModel
     var body: some View {
-        VStack{
+        NavigationView{
             List(contentViewModel.dummyTestObjects) { object in
                 RowView(object: object, viewModel: self.contentViewModel).frame(height: 120)
-            }
+            }.navigationBarTitle("Display Navigation options", displayMode: .inline)
         }
     }
 }
