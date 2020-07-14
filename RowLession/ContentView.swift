@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var contentViewModel: ContentViewModel
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            List(contentViewModel.dummyTestObjects) { object in
+                RowView(object: object).frame(height: 120)
+            }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView(ContentViewModel())
+//    }
+//}

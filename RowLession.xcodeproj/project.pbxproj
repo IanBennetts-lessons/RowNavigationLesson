@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC114C9B24BD2A3B008B9278 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC114C9A24BD2A3B008B9278 /* RowView.swift */; };
 		BC96995224BD17E800B44A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96995124BD17E800B44A53 /* AppDelegate.swift */; };
 		BC96995424BD17E800B44A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96995324BD17E800B44A53 /* SceneDelegate.swift */; };
 		BC96995624BD17E800B44A53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96995524BD17E800B44A53 /* ContentView.swift */; };
 		BC96995824BD17EA00B44A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC96995724BD17EA00B44A53 /* Assets.xcassets */; };
 		BC96995B24BD17EA00B44A53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC96995A24BD17EA00B44A53 /* Preview Assets.xcassets */; };
 		BC96995E24BD17EA00B44A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC96995C24BD17EA00B44A53 /* LaunchScreen.storyboard */; };
+		BC96996624BD18E600B44A53 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96996524BD18E600B44A53 /* ContentViewModel.swift */; };
+		BC96996824BD1B0400B44A53 /* DummyTestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC96996724BD1B0400B44A53 /* DummyTestObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC114C9A24BD2A3B008B9278 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		BC96994E24BD17E800B44A53 /* RowLession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RowLession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC96995124BD17E800B44A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC96995324BD17E800B44A53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BC96995A24BD17EA00B44A53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC96995D24BD17EA00B44A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC96995F24BD17EA00B44A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC96996524BD18E600B44A53 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BC96996724BD1B0400B44A53 /* DummyTestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyTestObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		BC96995024BD17E800B44A53 /* RowLession */ = {
 			isa = PBXGroup;
 			children = (
+				BC96996524BD18E600B44A53 /* ContentViewModel.swift */,
+				BC96996724BD1B0400B44A53 /* DummyTestObject.swift */,
 				BC96995124BD17E800B44A53 /* AppDelegate.swift */,
 				BC96995324BD17E800B44A53 /* SceneDelegate.swift */,
 				BC96995524BD17E800B44A53 /* ContentView.swift */,
@@ -63,6 +71,7 @@
 				BC96995C24BD17EA00B44A53 /* LaunchScreen.storyboard */,
 				BC96995F24BD17EA00B44A53 /* Info.plist */,
 				BC96995924BD17EA00B44A53 /* Preview Content */,
+				BC114C9A24BD2A3B008B9278 /* RowView.swift */,
 			);
 			path = RowLession;
 			sourceTree = "<group>";
@@ -146,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC96996624BD18E600B44A53 /* ContentViewModel.swift in Sources */,
+				BC114C9B24BD2A3B008B9278 /* RowView.swift in Sources */,
+				BC96996824BD1B0400B44A53 /* DummyTestObject.swift in Sources */,
 				BC96995224BD17E800B44A53 /* AppDelegate.swift in Sources */,
 				BC96995424BD17E800B44A53 /* SceneDelegate.swift in Sources */,
 				BC96995624BD17E800B44A53 /* ContentView.swift in Sources */,
