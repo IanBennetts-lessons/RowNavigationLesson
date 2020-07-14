@@ -18,6 +18,14 @@ class ContentViewModel{
             dummyTestObjects.append(DummyTestObject(id: index, name: "TestData \(index)" , address: "TestAddress \(index)" ))
         }
     }
+    func changeName(id: Int, newName: String){
+        for index in 0..<dummyTestObjects.count{
+            if id == dummyTestObjects[index].id{
+                dummyTestObjects[index].name = newName
+                print ("Name changed to \(newName)")
+            }
+        }
+    }
     
     
 }

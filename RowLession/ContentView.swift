@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack{
             List(contentViewModel.dummyTestObjects) { object in
-                RowView(object: object).frame(height: 120)
+                RowView(object: object, viewModel: self.contentViewModel).frame(height: 120)
             }
         }
     }
